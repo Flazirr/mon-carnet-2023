@@ -1,0 +1,444 @@
+@font-face {
+    font-family: bevan;
+    src: url(/assets/Bevan-Regular.ttf);
+}
+
+@font-face {
+    font-family: robotomono;
+    src: url(/assets/RobotoMono-Medium.ttf);
+}
+
+body {
+    background-image: url(../assets/background.svg);
+}
+
+.images{
+    height: 280px;
+}
+
+.rectangle {
+    top: 80px;
+    height: 350px;
+    width: 90%;
+    margin: 20px auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.rectangle img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.rectangle .info {
+    float: left;
+    width: 60%;
+}
+
+.rectangle h2 {
+    font-family: bevan, sans-serif;
+    font-size: 28px;
+    margin-top: 0;
+    text-decoration:  underline;
+}
+
+.rectangle p {
+    font-family: robotomono, sans-serif;
+    font-size: 24px;
+}
+
+.lien{
+    color: rgb(161, 161, 161);
+    font-size: 12px;
+}
+
+.lien-vers-frise2{
+    color: rgb(30, 30, 30);
+}
+
+.retour-accueil{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -100px;
+    padding-bottom: 50px;
+}
+
+.texte-retour{
+    color: black;
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#resume{
+    height: 500px;
+}
+
+#structure{
+    height: 550px;
+}
+
+#couv{
+    height: 300px;
+}
+
+#bio{
+    height: 630px;
+}
+
+#courant{
+    height: 600px;
+}
+
+#avis{
+    height: 1000px;
+}
+
+@media screen and (max-width: 1970px){
+    .images{
+        height: 220px;
+    }
+    .rectangle{
+        height: 230px;
+    }
+    #resume{
+        height: 560px;
+    }
+    #bio{
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 1670px){
+    .images{
+        height: 180px;
+    }
+    .rectangle{
+        height: 190px;
+    }
+    .rectangle h2{
+        font-size: 24px;
+    }
+    .rectangle p{
+        font-size: 18px;
+    }
+    #resume{
+        height: 360px;
+    }
+    #structure{
+        height: 360px;
+    }
+    #bio{
+        height: 450px;
+    }
+    #avis{
+        height: 740px;
+    }
+}
+
+@media screen and (max-width: 1560px){
+    #resume{
+        height: 380px;
+    }
+    #structure{
+        height: 380px;
+    }
+    #bio{
+        height: 480px;
+    }
+    #avis{
+        height: 740px;
+    }
+}
+
+@media screen and (max-width: 1450px){
+    #resume{
+        height: 410px;
+    }
+    #structure{
+        height: 410px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .images{
+        height: 160px;
+    }
+    .rectangle{
+        height: 170px;
+    }
+    .rectangle h2{
+        font-size: 20px;
+    }
+    .rectangle p{
+        font-size: 14px;
+    }
+    #resume{
+        height: 300px;
+    }
+    #structure{
+        height: 300px;
+    }
+    #couv{
+        height: 200px;
+    }
+    #bio{
+        height: 360px;
+    }
+    #courant{
+        height: 380px;
+    }
+    #avis{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1260px){
+    .images{
+        height: 140px;
+    }
+    .rectangle{
+        height: 150px;
+    }
+    .rectangle h2{
+        font-size: 20px;
+    }
+    .rectangle p{
+        font-size: 14px;
+    }
+    #couv{
+        height: 200px;
+    }
+    #bio{
+        height: 400px;
+    }
+    #courant{
+        height: 380px;
+    }
+    #avis{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1130px){
+    #resume{
+        height: 330px;
+    }
+    #structure{
+        height: 330px;
+    }
+    #bio{
+        height: 420px;
+    }
+    #courant{
+        height: 380px;
+    }
+    #avis{
+        height: 680px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .images{
+        height: 120px;
+    }
+    .rectangle{
+        height: 130px;
+    }
+    .rectangle h2{
+        font-size: 20px;
+    }
+    .rectangle p{
+        font-size: 14px;
+    }
+    #resume{
+        height: 390px;
+    }
+    #structure{
+        height: 390px;
+    }
+    #bio{
+        height: 470px;
+    }
+    #courant{
+        height: 400px;
+    }
+    #avis{
+        height: 740px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .images{
+        height: 100px;
+    }
+    .rectangle{
+        height: 110px;
+    }
+    .rectangle h2{
+        font-size: 18px;
+    }
+    .rectangle p{
+        font-size: 12px;
+    }
+    #resume{
+        height: 320px;
+    }
+    #structure{
+        height: 300px;
+    }
+    #couv{
+        height: 200px;
+    }
+    #courant{
+        height: 330px;
+    }
+    #avis{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .images{
+        height: 80px;
+    }
+    .rectangle{
+        height: 90px;
+    }
+    .rectangle h2{
+        font-size: 16px;
+    }
+    .rectangle p{
+        font-size: 10px;
+    }
+    #resume{
+        height: 270px;
+    }
+    #structure{
+        height: 200px;
+    }
+    #couv{
+        height: 200px;
+    }
+    #bio{
+        height: 330px;
+    }
+    #courant{
+        height: 300px;
+    }
+    #avis{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .images{
+        height: 60px;
+    }
+    .rectangle{
+        height: 70px;
+    }
+    .rectangle h2{
+        font-size: 14px;
+    }
+    .rectangle p{
+        font-size: 8px;
+    }
+    .rectangle{
+        height: 100px;
+    }
+    #couv{
+        height: 150px;
+    }
+    #bio{
+        height: 320px;
+    }
+    #courant{
+        height: 300px;
+    }
+    #avis{
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .rectangle{
+        height: 100px;
+    }
+    #resume{
+        height: 300px;
+    }
+    #structure{
+        height: 210px;
+    }
+    #couv{
+        height: 150px;
+    }
+    #bio{
+        height: 350px;
+    }
+    #courant{
+        height: 350px;
+    }
+    #avis{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    #resume{
+        height: 330px;
+    }
+    #structure{
+        height: 250px;
+    }
+    #couv{
+        height: 150px;
+    }
+    #bio{
+        height: 380px;
+    }
+    
+}
+
+@media screen and (max-width: 338px){
+    #resume{
+        height: 350px;
+    }
+    #structure{
+        height: 250px;
+    }
+    #imstruc{
+        width:  30%;
+    }
+    #couv{
+        height: 200px;
+    }
+    #bio{
+        height: 420px;
+    }
+    #courant{
+        height: 350px;
+    }
+    #avis{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .rectangle{
+        height: 110px;
+    }
+    #resume{
+        height: 350px;
+    }
+    #couv{
+        height: 200px;
+    }
+
+}

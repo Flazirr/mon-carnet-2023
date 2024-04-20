@@ -1,0 +1,489 @@
+@font-face {
+    font-family: bevan;
+    src: url(/assets/Bevan-Regular.ttf);
+}
+
+@font-face {
+    font-family: robotomono;
+    src: url(/assets/RobotoMono-Medium.ttf);
+}
+
+body {
+    background-image: url(../assets/background.svg);
+}
+
+.images{
+    height: 280px;
+}
+
+.rectangle {
+    top: 80px;
+    height: 400px;
+    width: 90%;
+    margin: 20px auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.rectangle img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.rectangle .info {
+    float: left;
+    width: 60%;
+}
+
+.rectangle h2 {
+    font-family: bevan, sans-serif;
+    font-size: 28px;
+    margin-top: 0;
+    text-decoration:  underline;
+}
+
+.rectangle p {
+    font-family: robotomono, sans-serif;
+    font-size: 20px;
+}
+
+.lien{
+    color: rgb(161, 161, 161);
+    font-size: 12px;
+}
+
+.lien-vers-frise2{
+    color: rgb(30, 30, 30);
+}
+
+.retour-accueil{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -100px;
+    padding-bottom: 50px;
+}
+
+.texte-retour{
+    color: black;
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#presentation{
+    height: 260px;
+}
+
+#resumes{
+    height: 500px;
+}
+
+#structures{
+    height: 600px;
+}
+
+#couvs{
+    height: 300px;
+}
+
+#bios{
+    height: 300px;
+}
+
+#courants{
+    height: 250px;
+}
+
+#aviss{
+    height: 300px;
+}
+
+@media screen and (max-width: 1970px){
+    .images{
+        height: 220px;
+    }
+    .rectangle{
+        height: 230px;
+    }
+    #resumes{
+        height: 560px;
+    }
+    #bios{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1670px){
+    .images{
+        height: 180px;
+    }
+    .rectangle{
+        height: 190px;
+    }
+    .rectangle h2{
+        font-size: 24px;
+    }
+    .rectangle p{
+        font-size: 18px;
+    }
+    #resumes{
+        height: 560px;
+    }
+    #structures{
+        height: 600px;
+    }
+    #bios{
+        height: 400px;
+    }
+    #aviss{
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 1560px){
+    #resumes{
+        height: 540px;
+    }
+    #structures{
+        height: 620px;
+    }
+    #bios{
+        height: 520px;
+    }
+    #aviss{
+        height: 280px;
+    }
+    #couvs{
+        height: 240px;
+    }
+    #courants{
+        height: 290px;
+    }
+}
+
+@media screen and (max-width: 1450px){
+    #resumes{
+        height: 550px;
+    }
+    #structures{
+        height: 650px;
+    }
+    #couvs{
+        height: 200px;
+    }
+    #bios{
+        height: 300px;
+    }
+    #courants{
+        height: 250px;
+    }
+    #aviss{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .images{
+        height: 160px;
+    }
+    .rectangle{
+        height: 170px;
+    }
+    .rectangle h2{
+        font-size: 20px;
+    }
+    .rectangle p{
+        font-size: 14px;
+    }
+    #resumes{
+        height: 400px;
+    }
+    #structures{
+        height: 500px;
+    }
+    #couvs{
+        height: 200px;
+    }
+    #bios{
+        height: 300px;
+    }
+    #courants{
+        height: 250px;
+    }
+    #aviss{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1260px){
+    .images{
+        height: 140px;
+    }
+    .rectangle{
+        height: 150px;
+    }
+    .rectangle h2{
+        font-size: 20px;
+    }
+    .rectangle p{
+        font-size: 14px;
+    }
+    #resumes{
+        height: 400px;
+    }
+    #structures{
+        height: 500px;
+    }
+    #couvs{
+        height: 200px;
+    }
+    #bios{
+        height: 300px;
+    }
+    #courants{
+        height: 280px;
+    }
+    #aviss{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1130px){
+    #resumes{
+        height: 450px;
+    }
+    #structures{
+        height: 550px;
+    }
+    #bios{
+        height: 320px;
+    }
+    #courants{
+        height: 220px;
+    }
+    #aviss{
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .images{
+        height: 120px;
+    }
+    .rectangle{
+        height: 130px;
+    }
+    .rectangle h2{
+        font-size: 20px;
+    }
+    .rectangle p{
+        font-size: 14px;
+    }
+    #resumes{
+        height: 530px;
+    }
+    #structures{
+        height: 630px;
+    }
+    #bios{
+        height: 380px;
+    }
+    #courants{
+        height: 230px;
+    }
+    #aviss{
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .images{
+        height: 100px;
+    }
+    .rectangle{
+        height: 110px;
+    }
+    .rectangle h2{
+        font-size: 18px;
+    }
+    .rectangle p{
+        font-size: 12px;
+    }
+    #resumes{
+        height: 440px;
+    }
+    #structures{
+        height: 500px;
+    }
+    #couvs{
+        height: 200px;
+    }
+    #bios{
+        height: 250px;
+    }
+    #courants{
+        height: 200px;
+    }
+    #aviss{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .images{
+        height: 80px;
+    }
+    .rectangle{
+        height: 90px;
+    }
+    .rectangle h2{
+        font-size: 16px;
+    }
+    .rectangle p{
+        font-size: 10px;
+    }
+    #resumes{
+        height: 410px;
+    }
+    #structures{
+        height: 450px;
+    }
+    #couvs{
+        height: 200px;
+    }
+    #bios{
+        height: 230px;
+    }
+    #courants{
+        height: 200px;
+    }
+    #aviss{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .images{
+        height: 60px;
+    }
+    .rectangle{
+        height: 70px;
+    }
+    .rectangle h2{
+        font-size: 14px;
+    }
+    .rectangle p{
+        font-size: 8px;
+    }
+    .rectangle{
+        height: 100px;
+    }
+    #couvs{
+        height: 170px;
+    }
+    #resumes{
+        height: 350px;
+    }
+    #structures{
+        height: 400px;
+    }
+    #bios{
+        height: 190px;
+    }
+    #courants{
+        height: 170px;
+    }
+    #aviss{
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .rectangle{
+        height: 100px;
+    }
+    #resumes{
+        height: 370px;
+    }
+    #structures{
+        height: 450px;
+    }
+    #couvs{
+        height: 150px;
+    }
+    #bios{
+        height: 250px;
+    }
+    #courants{
+        height: 200px;
+    }
+    #aviss{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    #resumes{
+        height: 400px;
+    }
+    #structures{
+        height: 500px;
+    }
+    #couvs{
+        height: 150px;
+    }
+    #bios{
+        height: 250px;
+    }
+    #courants{
+        height: 200px;
+    }
+    #aviss{
+        height: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 338px){
+    #resumes{
+        height: 420px;
+    }
+    #structures{
+        height: 500px;
+    }
+    #imstruc{
+        width:  30%;
+    }
+    #couvs{
+        height: 200px;
+    }
+    #bios{
+        height: 250px;
+    }
+    #courants{
+        height: 250px;
+    }
+    #aviss{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .rectangle{
+        height: 110px;
+    }
+
+    #resumes{
+        height: 500px;
+    }
+    #structures{
+        height: 600px;
+    }
+
+
+}

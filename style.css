@@ -1,0 +1,131 @@
+@font-face {
+    font-family: bevan;
+    src: url(/assets/Bevan-Regular.ttf);
+}
+
+@font-face {
+    font-family: robotomono;
+    src: url(/assets/RobotoMono-Medium.ttf);
+}
+
+body{
+    background-image: url(./assets/background.svg)
+}
+
+.acceuil{
+    margin-top: 15%;
+}
+
+.titre{
+    font-family: bevan;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 56px;
+    position: relative;
+
+}
+
+.titre::before,
+.titre::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    bottom: -3px;
+    transition: width 0.3s ease;
+}
+
+.titre::before {
+    left: 12%;
+}
+
+.titre::after {
+    right: 12%;
+}
+
+.titre:hover::before,
+.titre:hover::after {
+    width: 50%;
+}
+
+.boutons {
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.titre,
+.boutons{
+    margin: 80px 0;
+}
+
+.bouton,
+.bouton2 {
+    text-align: center;
+    margin: 10px 0;
+    text-decoration: none;
+    border: 3px solid  #000;
+    border-radius: 30px;
+    width: 400px;
+}
+
+.texte-bouton{
+    font-family: robotomono;
+    font-size: 36px;
+    color: white;
+}
+
+.bouton,
+.bouton2{
+    transition: background-color 0.6s ease, transform 0.3s ease;
+}
+
+.bouton:hover,
+.bouton2:hover {
+    background-color: #84838363;
+    transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 500px){
+    .bouton,
+    .bouton2{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .titre{
+        font-size: 48px;
+    }
+    .texte-bouton{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .titre{
+        font-size: 38px;
+    }
+    .bouton,
+    .bouton2{
+        width: 300px;
+    }
+    .texte-bouton{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .titre{
+        font-size: 28px;
+    }
+    .bouton,
+    .bouton2{
+        width: 250px;
+    }
+    .texte-bouton{
+        font-size: 24px;
+    }
+}
